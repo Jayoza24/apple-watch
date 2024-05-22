@@ -1,0 +1,371 @@
+@font-face {
+    font-family: bold;
+    src: url(./SFUIText-Bold.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#main{
+    width: 100%;
+    font-family: bold;
+    overflow-x: hidden;
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+}
+
+#nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+#nav img{
+    height: 25px;
+    object-fit: cover;
+}
+
+#nav a{
+    text-decoration: none;
+    color: rgb(222, 222, 222);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+#bgblur{
+    height: 350px;
+    width: 350px;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(78,104,144,1) 23%, rgba(136,44,152,0.5972514005602241) 80%);    position: absolute;
+    top: 27%;
+    left: 37%;
+    border-radius: 50%;
+    filter: blur(80px);
+}
+
+#product{
+    position: relative;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#product img{
+    height: 180px;
+}
+
+#productText{
+    color: rgb(222, 222, 222);
+    position: absolute;
+    top: 15%;
+    left: 31.5%;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#getitnow{
+    position: absolute;
+    left: 44.1%;
+    bottom: 10%;
+}
+
+#getitnow p{
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 8px;
+    letter-spacing: 5px;
+    color: rgb(222, 222, 222);
+    border: 2px solid rgba(222, 222, 222, 0.438);
+}
+
+#watch1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+
+#w1Tittle{
+    color: rgb(222, 222, 222);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#w1Tittle img{
+    height: 25px;
+    margin-right: -5px;
+}
+#watchUltralogo h3{
+    font-size: 25px;
+}
+
+#watchUltralogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#watchUltralogo p{
+    color: rgb(232, 116, 15);
+    font-size: 12px;
+}
+
+#ultraContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#ultraContent p:nth-child(1){
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+#w1Tittle button{
+    color: rgb(222, 222, 222);
+    background-color: transparent;
+    border: 1px solid rgb(232, 116, 15);
+    border-radius: 20px;
+    padding: 10px 20px; 
+    font-size: 10px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+
+#w1Tittle button:hover{
+    background-color: rgb(232, 116, 15);
+    color: black;
+}
+
+#w1Img{
+    display: flex;
+    align-items: center;
+}
+
+#w1Img img{
+    height: 40vh;
+    object-fit: cover;
+    align-self: center;
+}
+
+#watch2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#w2Img img{
+    height: 50vh;
+    margin-top: 30px;
+}
+
+#w2Tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(222, 222, 222);
+}
+
+#watch9logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#watch9logo img{
+    height: 25px;
+    margin-right: -5px;
+}
+
+#watch9logo h3{
+    font-size: 25px;
+}
+#watch9logo p{
+    font-size: 12px;
+    color:rgb(236, 189, 189)
+}
+
+
+#s9Content p:nth-child(1){
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+#s9Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#w2Tittle button{
+    color: rgb(222, 222, 222);
+    background-color: transparent;
+    border: 1px solid rgb(236, 189, 189);
+    border-radius: 20px;
+    padding: 10px 20px; 
+    font-size: 10px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#w2Tittle button:hover{
+    background-color: rgb(236, 189, 189);
+    color: black;
+}
+
+#watch3{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+#w3Tittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#w3Img img{
+    height: 80vh;
+}
+
+#watchSelogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+#watchSelogo p{
+    color:rgb(134, 10, 10)
+}
+
+#watchSelogo img{
+    height: 25px;
+}
+
+#watchSelogo h3{
+    font-size: 25px;
+}
+
+#w3Tittle{
+    color: rgb(222, 222, 222);
+}
+
+#SeContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#SeContent p:nth-child(1){
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+#w3Tittle button{
+    color: rgb(222, 222, 222);
+    background-color: transparent;
+    border: 1px solid rgb(134, 10, 10);
+    border-radius: 20px;
+    padding: 10px 20px; 
+    font-size: 10px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#w3Tittle button:hover{
+    background-color: rgb(134, 10, 10);
+    color: rgb(222, 222, 222);
+}
+
+#bottom img{
+    width: 100%;
+}
+
+#bgW1{
+    height: 300px;
+    width: 400px;
+    background-color: rgba(232, 116, 15, 0.47);
+    position: absolute;
+    left: 53.6%;
+    filter: blur(120px);
+    z-index: -1;
+}
+
+#lw1{
+    height: 280px;
+    width: 400px;
+    background-color: rgba(221, 83, 141, 0.47);
+    position: absolute;
+    filter: blur(120px);
+    left: -20%;
+}
+
+#lw2{
+    height: 280px;
+    width: 400px;
+    background-color: rgba(93, 82, 121, 0.47);
+    position: absolute;
+    filter: blur(120px);
+    left: 68%;
+    
+}
+
+#bgW3{
+    height: 300px;
+    width: 400px;
+    background-color: rgba(134, 10, 10, 0.605);
+    position: absolute;
+    filter: blur(120px);
+    z-index: -1;
+    margin-top: 100px;
+    margin-left: 40px;
+}
